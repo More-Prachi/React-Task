@@ -1,0 +1,183 @@
+:root {
+    --PrimaryColor: hwb(0 5% 95% / 0.849);
+    --HoverColor: hsl(26, 90%, 42%);
+    --gradientColor: linear-gradient(to right,
+            hsl(187, 85%, 43%),
+            hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textcolor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyBg: hsl(0, 0%, 96%) --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(19, 3, 3);
+    --cardBG: rgb(225, 225, 225);
+
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    background: transparent;
+    width: 100%;
+    padding: .5rem;
+    z-index: 1000;
+}
+
+.logoDiv .logo {
+    color: var(--whiteColor);
+    font: 500;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    color: rgb(243, 183, 73);
+    font-size: 25px;
+    
+}
+
+@media screen and (max-width:768px) {
+    .navBar {
+        position: relative;
+        background-color: var(--whiteColorDeam);
+        height: max-content;
+        width: 80%;
+        top: 0;
+        left: -500%;
+    }
+
+    .navLists {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        padding: 1.5rem 0;
+    }
+
+    .navItem {
+
+        padding: .5rem 0;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .navLink {
+        color: var(--textColor);
+        font-size: .9rem;
+        font-weight: 600;
+
+    }
+}
+
+.headerBtns .btn {
+    flex-direction: column;
+    margin-top: 1rem;
+   
+}
+
+.registertn {
+    border: 1px solid white;
+    margin-left: 120px;
+    margin-bottom: 15px;
+   
+
+}
+
+.closeNavbar {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: var(--PrimaryColor);
+    visibility: hidden;
+}
+
+.activeNavbar {
+    left: 0;
+}
+
+.toggleNavbar .icon {
+    font-size: 25px;
+    color: rgb(243, 183, 73);
+    /* visibility: hidden; */
+}
+
+@media (max-width:800px) {
+    .toggleNavbar{
+        visibility: visible;
+    }
+    .closeNavbar{
+        visibility: visible;
+    }
+  }
+
+.activeHeader {
+    background:transparent;
+
+
+}
+
+
+
+
+/* .cover-img {
+    width: 800px;
+    height: 400px;
+    margin-top: 25px;
+    align-items: center;
+    top:0;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and(max-width:768) { */
+/* .navBar {
+        background: var(--whiteColorDeam);
+        position: absolute;
+        height: max-content;
+        padding: 1rem;
+        width: 100%;
+        top: 0;
+        left: 0;
+        width: 80%;
+        box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
+        transition: .5s ease;
+        z-index: 1000;
+    
+    }
+   
+  .navLists {
+
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem 0;
+  }
+    .navItem{
+        padding: 1.5rem 0;
+        font-weight: 600;
+   
+    .navLink{
+        color: var(--textcolor);    
+        font-size: .9rem;
+      font-weight: 600;
+ 
+      &:hover {
+        color: var(--PrimaryColor);
+    }
+
+}
+    }
+} */

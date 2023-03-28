@@ -1,0 +1,99 @@
+/* colors and styles */
+:root {
+    --PrimaryColor: hsl(26, 93%, 50%);
+    --HoverColor: hsl(26, 90%, 42%);
+    --gradientColor: linear-gradient(to right,
+            hsl(187, 85%, 43%),
+            hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textcolor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyBg: hsl(0, 0%, 96%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+
+    --cardBG: rgb(225, 225, 225);
+    /* --boxShadow: rgba(178,178,178,0.334); */
+
+}
+
+.offer .secContainer .mainContent {
+margin-left: 30px;
+    gap: 1rem;
+}
+.view{
+    display: flex;
+    margin-left: 1100px;
+    padding-bottom: 10px;
+    color: blue;
+    font-weight: 500;
+
+}
+
+
+.singleOffer {
+margin-bottom: 1px;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: .5rem;
+    font-weight: 500;
+    color: rgb(77, 66, 66);
+}
+
+
+
+.amount {
+    color: black;
+}
+
+.destImage {
+    height: 200px;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+img {
+    height: 100%;
+
+}
+
+.discount {
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    color:var(--HoverColor);
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.offerbody {
+    padding: 1rem;
+}
+
+.price {
+    justify-content: space-between;
+}
+
+h4 {
+    color: black;
+    font-weight: 500;
+    font-size: 19px;
+}
+.status{
+    font-size: 15px;
+  padding: 5px 5px;
+  margin-left: 15px;
+    color: black;
+}
+.info{
+    width: 100%;
+    font-size: 15px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 1rem 0;
+    gap: .3rem
+
+}

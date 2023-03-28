@@ -1,0 +1,86 @@
+/* colors and styles */
+:root {
+    --PrimaryColor: hsl(26, 93%, 50%);
+    --HoverColor: hsl(26, 90%, 42%);
+    --gradientColor: linear-gradient(to right,
+            hsl(187, 85%, 43%),
+            hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textcolor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyBg: hsl(0, 0%, 96%) --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --cardBG: rgb(225, 225, 225);
+
+}
+
+.home {
+    height: 80vh;
+    background: linear-gradient(rgba(33, 33, 33, 0.522) rgba(33, 33, 33, 0.522));
+    background-image: url('../Assets/bgcover.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.secContainer .homeText {
+    text-align: center;
+}
+
+.title {
+    color: var(--whiteColor);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+.homeCard {
+    width: 50%;
+    height: 60px;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: var(--whiteColor);
+    position: absolute;
+    gap: 1rem;
+    justify-content: center;
+    bottom: 28%;
+    transform: (-50%);
+    left: 25%;
+    box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+input{
+    width: 100%;
+    border-radius: 18px;
+    border:none;
+    padding: 10px;
+    font-size: 16px;
+    text-align: start;
+}
+.placeholder {
+    width: 100%;
+    margin-right: 380px;
+    justify-content: start;
+    font-size: 15px;
+    opacity: .7;
+    font-weight: 400;
+    outline: none;
+
+}
+
+
+.Reacticon {
+    color: rgba(1, 1, 19, 0.507);
+    width: 120px;
+    height: 120px;
+    font-weight: 700;
+}
