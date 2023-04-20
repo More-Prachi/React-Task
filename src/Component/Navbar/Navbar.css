@@ -17,14 +17,21 @@
 .header {
     position: fixed;
     display: flex;
-    /* align-items: center; */
-    justify-content: space-around;
+    align-items:flex-end;
+    justify-content: space-evenly;
     background: transparent;
     width: 100%;
     padding: .5rem;
     z-index: 1000;
 }
+h2 {
+    margin-left: 10px;
+    color: floralwhite;
+}
+.nav{
+    margin-left: 320px;
 
+}
 .logoDiv .logo {
     color: var(--whiteColor);
     font: 500;
@@ -39,39 +46,28 @@
     
 }
 
-@media screen and (max-width:768px) {
-    .navBar {
-        position: relative;
+
+/* @media screen and (max-width:768px) {
+    /* .navBar {
         background-color: var(--whiteColorDeam);
         height: max-content;
-        width: 80%;
+        width: 100%;
         top: 0;
         left: -500%;
-    }
+    } */
 
-    .navLists {
-        flex-direction: column;
-        width: 100%;
-        margin: auto;
-        padding: 1.5rem 0;
-    }
+    
 
-    .navItem {
+    
 
-        padding: .5rem 0;
-        font-weight: 600;
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    .navLink {
+    /* .navLink {
         color: var(--textColor);
         font-size: .9rem;
-        font-weight: 600;
+        font-weight: 500;
+        margin-right: auto;
 
     }
-}
+} */ */
 
 .headerBtns .btn {
     flex-direction: column;
@@ -80,10 +76,8 @@
 }
 
 .registertn {
-    border: 1px solid white;
-    margin-left: 120px;
-    margin-bottom: 15px;
-   
+    border: 1px solid rgb(43, 76, 185);
+       
 
 }
 
@@ -97,6 +91,7 @@
 
 .activeNavbar {
     left: 0;
+    width: 200px;
 }
 
 .toggleNavbar .icon {
@@ -123,13 +118,6 @@
 
 
 
-/* .cover-img {
-    width: 800px;
-    height: 400px;
-    margin-top: 25px;
-    align-items: center;
-    top:0;
-  } */
 
 
 
@@ -141,43 +129,4 @@
 
 
 
-/* @media screen and(max-width:768) { */
-/* .navBar {
-        background: var(--whiteColorDeam);
-        position: absolute;
-        height: max-content;
-        padding: 1rem;
-        width: 100%;
-        top: 0;
-        left: 0;
-        width: 80%;
-        box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
-        transition: .5s ease;
-        z-index: 1000;
-    
-    }
-   
-  .navLists {
 
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    padding: 1.5rem 0;
-  }
-    .navItem{
-        padding: 1.5rem 0;
-        font-weight: 600;
-   
-    .navLink{
-        color: var(--textcolor);    
-        font-size: .9rem;
-      font-weight: 600;
- 
-      &:hover {
-        color: var(--PrimaryColor);
-    }
-
-}
-    }
-} */

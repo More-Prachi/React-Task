@@ -37,11 +37,50 @@ window.addEventListener('scroll',addBg)
         <div className="logoDiv">
 
           <a href="#" className="logo"></a>
-          <h1 className="flex"> Easy <SiYourtraveldottv className="icon" /></h1>
+          <h2 className="Easy"> Easy <SiYourtraveldottv className="icon" /></h2>
         </div>
 
         <div className={active}>
 
+        {/* <ul class="navLists flex justify-content-end"> */}
+
+        <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">About us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact us</a>
+  </li>
+  <li>
+  <button className="btn registertn"> <a href="#"> Register </a> </button>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+  {/* <li class="nav-item">
+    <a class="nav-link" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About us</a>
+  </li>
+  <div className="headerBtns flex">
+              <button className="btn registertn">
+                <a href="#"> Register</a>
+              </button>
+            </div>
+  
+</ul> */}
+{/* 
           <ul className="navLists flex">
 
             <li className="navItem">
@@ -52,22 +91,18 @@ window.addEventListener('scroll',addBg)
               <a href="#" className="navLink">About Us</a>
             </li>
 
-           
-            <div className="headerBtns flex">
-              <button className="btn registertn">
-                <a href="#"> Register</a>
-              </button>
-            </div>
+            */}
+            
 
-          </ul>
+          {/* </ul> */}
           <div onClick={removeNav} className="closeNavbar">
             <AiFillCloseCircle className="icon" />
           </div>
 
         </div>
-        <div onClick={showNav} className="toggleNavbar">
+        {/* <div onClick={showNav} className="toggleNavbar">
           <TbGridDots className="icon" />
-        </div>
+        </div> */}
       </div>
     </section>
 

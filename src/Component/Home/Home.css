@@ -41,7 +41,7 @@
 }
 
 .homeCard {
-    width: 50%;
+    width: 57%;
     height: 60px;
     border-radius: 1rem;
     padding: 2rem;
@@ -72,15 +72,16 @@ input{
     justify-content: start;
     font-size: 15px;
     opacity: .7;
-    font-weight: 400;
+    font-weight: 600;
     outline: none;
-
+    background-color: white;
+cursor: pointer;
 }
 
 
 .Reacticon {
-    color: rgba(1, 1, 19, 0.507);
-    width: 120px;
-    height: 120px;
+    color: rgba(58, 151, 226, 0.822);
+    width: 100px;
+    height: 100px;
     font-weight: 700;
 }

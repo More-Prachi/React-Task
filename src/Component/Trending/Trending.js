@@ -37,7 +37,7 @@ const Data = [
     },
     {
         id: 4,
-        imgSrc : singapore,
+        imgSrc: singapore,
         location: 'Singapore',
         Price: '30,000 night.',
         distance: '56,401km away',
@@ -55,26 +55,22 @@ const Trending = () => {
                     <h2 className="secTitle">
                         Trending Hotels
                     </h2>
-                    <h5 className='info'>
-                        From historical cities to natural specteculars,
-                        come see the best of the world !
-                    </h5>
                 </div>
                 <a href='#' className='view'>view all</a>
-                <div className="mainContent flex">    
+                <div className="mainContent flex">
                     {
-                        Data.map(({ imgSrc , location, Price, distance, date }) => {
+                        Data.map(({ imgSrc, location, Price, distance, date }) => {
                             return (
 
                                 <div className="singleOffer">
-                                    <div className="destImage">
+                                    <div className="destImage flex">
                                         <img src={imgSrc} alt="Image Name" />
                                         <span className="discount">
                                         </span>
                                     </div>
                                     <div className="offerbody">
                                         <div className="price flex">
-                                            <h4 className='amount'>{location}<span>
+                                            <h4 className='location'>{location}<span>
 
                                             </span></h4>
                                             <span className='status'>New<AiFillStar /> </span>

@@ -1,5 +1,6 @@
 body {
-  background: #F4F4F4;;
+  background: #F4F4F4;
+  
 
 }
 
@@ -38,8 +39,7 @@ a {
 }
 
 li {
-  margin-left: 150px;
-  list-style: none;
+  margin-left: 180px;
 
 }
 
@@ -48,7 +48,7 @@ li {
 }
 
 .container {
-  padding-left: 1.5rem;
+
   padding-right: 1.5rem;
 }
 
@@ -59,21 +59,20 @@ li {
 
 .flex {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   margin-top: 0px;
-  font-size: 28px;
+  font-size: 20px;
+
  }
 
 .grid {
   display: grid;
   align-items: center;
-
-
 }
 
 .btn {
   padding: .1rem 1.5rem;
-  background-color: hwb(207 2% 6% / 0.418);
+  background-color: hwb(207 4% 52% / 0.849);
   color: rgb(213, 234, 240);
   border-radius: 5px;
   cursor: pointer;
@@ -88,6 +87,7 @@ font-size: 15px;
 .btn a {
   color: var(--whiteColor);
   font-weight:500;
+  border: none;
 }
 
 .btn:hover {
@@ -95,8 +95,8 @@ font-size: 15px;
 }
 
 .secIntro {
-  max-width: 70%;
-  text-align: center;
+  max-width: 100%;
+  text-align: start;
   margin: 0 auto 2rem;
 }
 
@@ -111,11 +111,11 @@ font-size: 15px;
   color: var(--textcolor);
   font-weight: 500;
 }
-
+/* 
 img {
   width: 100%;
   height: auto;
-}
+} */
 
 input {
 

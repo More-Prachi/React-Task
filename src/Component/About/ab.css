@@ -18,63 +18,57 @@
 
 }
 
-.offer .secContainer .mainContent {
+.secContainer .mainContent {
     margin-left: 30px;
     gap: 1rem;
 }
 
-.view {
+.AboutContainerSection {
+
+
+    background-image: url("../Assets/rect.png ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
     display: flex;
-    margin-left: 1000px;
-    padding-bottom: 10px;
-    color: blue;
-    font-weight: 500;
+    justify-content: center;
+    align-items: center;
 
 }
 
 
-.singleOffer {
+h2{
+    color: white;
+}
+.singleitem {
     margin-bottom: 1px;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     overflow: hidden;
-    padding: .5rem;
+    height: 350px;
+    width: 300px;
+    padding: 2rem;
     font-weight: 500;
     color: rgb(77, 66, 66);
+    background-color: white;
 }
 
 
 
-.location {
+.amount {
     color: black;
-    padding: 0;
-    margin-bottom: 5px;
-    margin-top: 5px;
 }
 
-.destImage {
-    height: 200px;
-    width:200px;
-    border-radius: 1rem;
-    overflow: hidden;
+
+
+Image {
+
+    height: auto;
+    width: auto;
 }
 
-img {
-    height:100%;
-
-}
-
-.discount {
-    top: 10px;
-    right: 10px;
-    padding: 5px 10px;
-    color: var(--HoverColor);
-    font-size: 20px;
-    font-weight: 500;
-
-}
-
-.offerbody {
-    padding: .5rem;
+.feedback {
+    /* padding: .5rem; */
+    font-size: 10px;
 }
 
 .price {
@@ -87,19 +81,25 @@ h4 {
     font-size: 19px;
 }
 
-.status {
+/* .status {
     font-size: 15px;
     padding: 5px 5px;
     margin-left: 15px;
-        color: black;
-}       
+    color: black;
+} */
 
-.info {
-    width: 100%;
-    font-size: 15px;
+.city {
+    font-size: 12px;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    padding: 1rem 0;
-    gap: .2rem
+    gap: .3rem
 }
 
+.playstore {
+    margin-top: 10px;
+    margin-left: 0;
+
+}
+
+.saying {
+    font-size: 15px;
+}
